@@ -1,0 +1,37 @@
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h2 class="footer-heading">{{ site.title }}</h2>
+        <ul class="list-unstyled">
+          <li><a href="mailto:{{ site.email }}"><i class="fa fa-envelope"></i> {{ site.email }}</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <ul class="list-unstyled">
+          {% if site.github_username %}
+          <li>
+            <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github"></i> {{ site.github_username }}</a>
+          </li>
+          {% endif %}
+          {% if site.twitter_username %}
+          <li>
+            <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter"></i>  {{ site.twitter_username }}</a>
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <p>{{ site.description }}</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p>&copy; Telemeter 2015</p>
+      </div>
+    </div>
+  </div>
+</footer>
+</div> <!-- /container -->

@@ -1,0 +1,13 @@
+# Site settings
+title: Telemeter
+email: info@telemeter.com
+description: > # this means to ignore newlines until "baseurl:"
+  Telemeter is a consultancy that helps organizations create observable
+  software that provides deep insight into performance and reliability.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://telemeter.io" # the base hostname & protocol for your site
+twitter_username: telemeter
+github_username:  telemeter
+
+# Build settings
+markdown: kramdown
